@@ -1,0 +1,26 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "github": "npm run build && deploy.bat",
+    "gitee": "npm run build && deploy_gitee.bat"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "vuepress": "^1.4.0"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-ins": "^3.0.0",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-mark": "^3.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
