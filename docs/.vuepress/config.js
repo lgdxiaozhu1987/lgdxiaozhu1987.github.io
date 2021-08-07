@@ -1,8 +1,8 @@
 module.exports = {
   // 提交到gitee则开启base
-  base: '/blogs/',
-  title: '小熊的技术Blog',
-  description: '衣带渐宽终不悔，为伊消得人憔悴',
+  //base: '/blogs/',
+  title: '小朱的网站',
+  description: '网页测试',
   head: [
     // 增加自定义的 icon, 作为网页图标
     ['link', { rel: 'icon', href: '/fav.ico' }],
@@ -33,31 +33,23 @@ module.exports = {
     lastUpdated: '更新于',
     // 添加导航栏
     nav: [
-      { text: '🎨前端技术', link: '/front-end/' },
-      { text: '💻后端编程', link: '/back-end/' },
-      { text: '🚀实战记录', link: '/practice/' },
-      { text: '🏢高效办公', link: '/office/' },
-      { text: '🍓通用知识', link: '/general/' },
-      { text: '🐸论文写作', link: '/paper/' },
-      {
-        text: '🦉近期重点',
-        items: [
-          { text: '🍄每天读SCI论文', link: '/paper/daily' },
-          { text: '🐇python常用模块', link: '/back-end/python' },
-          { text: '🌹zrender源码解析', link: '/practice/zrender' },
-        ],
-      },
+      { text: '数据可视化实践', link: 'https://datav.aliyuncs.com/share/c5fe85f805b0425186d01be47dc34322' },
+
+      { text: '前端技术小结', link: '/front-end/' },
+      { text: '高效办公方法', link: '/office/' },
+      { text: '通用知识速查', link: '/general/' },
+      { text: '政治教育学习', link: '/CPC/' },
+
       {
         text: '⭐️资源',
         // 这里是下拉列表展现形式。
         items: [
-          { text: '小鸟搜索', link: 'https://www.birdiesearch.com/' },
-          { text: '每天一本编程书', link: 'https://salttiger.com/' },
-          {
-            text: 'emoji表情大全',
-            link:
-              'https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json',
-          },
+          {text: 'echarts示例', link: 'https://echarts.apache.org/examples/zh/index.html' },
+          {text: 'AJ-Report', link: 'https://report.anji-plus.com/report-doc/'},
+          {text: '阿里云DataV', link: 'https://help.aliyun.com/document_detail/86874.html'},
+          {text: '码云Git大全', link: 'https://gitee.com/all-about-git'},
+          {text: '得到APP网页版', link: 'https://www.dedao.cn/' },
+          {text: '大疆教育平台', link: 'https://edu.dji.com/hub/docs'},
         ],
       },
     ],
@@ -68,16 +60,17 @@ module.exports = {
         'javascript', 'pattern', 'typescript', 'es6', 'css',
         'node', 'design', 'npm', 'vuepress', 'babel',
       ],
-      // 后端编程
-      '/back-end/': ['daily', 'python', 'koa2', 'numpy', 'docker'],
-      // 项目实战
-      '/practice/': ['Hilo', 'canvas', 'react', 'zrender', 'search', 'phaser', 'medicine'],
+
+      // 数据可视化
+      //'/practice/': ['Hilo', 'canvas', 'react', 'zrender', 'search', 'phaser', 'medicine'],
+
       // 高效办公
       '/office/': ['word', 'excel', 'other', 'software'],
-      // 通用技术
+      // 通用知识
       '/general/': ['git', 'markdown', 'nexus', 'latex', 'vscode', 'guide', 'reg'],
-      // 论文
-      '/paper/': ['search', 'defense', 'cover', '2020Auguest', 'daily', 'technology', 'strategy', 'mpc', 'MARL', 'UAV','clustering'],
+
+      // 党史教育
+      '/CPC/': ['100sentences', 'historyPRC'],
     },
   },
   // vuepress插件系统
@@ -85,7 +78,7 @@ module.exports = {
     [
       '@vuepress/search',
       {
-        searchMaxSuggestions: 5,
+        searchMaxSuggestions: 10,
       },
     ],
     [

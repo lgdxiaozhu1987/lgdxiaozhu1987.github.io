@@ -1,7 +1,7 @@
 {
   "name": "my-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 使用方式",
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",
@@ -13,14 +13,27 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.0",
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.8.2"
   },
   "dependencies": {
+    "chokidar": "^3.5.2",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-ins": "^3.0.0",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-mark": "^3.0.0",
     "markdown-it-task-lists": "^2.1.1",
     "vuepress-plugin-code-copy": "^1.0.6"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgdxiaozhu1987/lgdxiaozhu1987.github.io.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lgdxiaozhu1987/lgdxiaozhu1987.github.io/issues"
+  },
+  "homepage": "https://github.com/lgdxiaozhu1987/lgdxiaozhu1987.github.io#readme"
 }
