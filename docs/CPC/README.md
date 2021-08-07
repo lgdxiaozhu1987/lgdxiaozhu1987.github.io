@@ -20,4 +20,4 @@
 - [中国共产党新闻网](http://cpc.people.com.cn/)
 - [庆祝中国共产党成立100周年](http://www.gov.cn/zhuanti/100zhounian/index.htm)
 - [中国共产党基本知识资料库](http://dangjian.people.com.cn/GB/436844/index.html)
-- [中组部共产党员网]（https://www.12371.cn/）
+- [中组部共产党员网]（http://www.12371.cn/）
